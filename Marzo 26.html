@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Marzo 26</title>
+</head>
+
+<body style="background-color: rgb(134, 199, 255);">
+<p>Primer numero</p>
+<input type="number" id="n1">
+
+<p>Segundo numero</p>
+<input type="number" id="n2">
+
+<button onclick="Suma()"> SUMA </button>
+<button onclick="Resta()"> RESTA </button>
+<button onclick="Mul()"> MULTIPLICACION </button>
+<button onclick="Div()"> DIVISION </button>
+
+<h1 id="Respuesta"> </h1>
+
+
+<script> 
+    function Suma(){
+        var valorUno = document.getElementById("n1").value;
+        var valorDos = document.getElementById("n2").value;
+        var resultado = parseInt(valorUno) + parseInt(valorDos);
+        document.getElementById("Respuesta").innerHTML= resultado;
+    }
+    function Resta(){
+        var valorUno = document.getElementById("n1").value;
+        var valorDos = document.getElementById("n2").value;
+        var resultado = parseInt(valorUno) -  parseInt(valorDos);
+        document.getElementById("Respuesta").innerHTML= resultado;
+    }
+    function Mul(){
+        var valorUno = document.getElementById("n1").value;
+        var valorDos = document.getElementById("n2").value;
+        var resultado = parseInt(valorUno) * parseInt(valorDos);
+        document.getElementById("Respuesta").innerHTML= resultado;
+    }
+    function Div(){
+        var valorUno = document.getElementById("n1").value;
+        var valorDos = document.getElementById("n2").value;
+        var resultado = parseInt(valorUno) / parseInt(valorDos);
+        document.getElementById("Respuesta").innerHTML= resultado;
+    }
+
+
+</script>
+
+
+</body>
+</html>
