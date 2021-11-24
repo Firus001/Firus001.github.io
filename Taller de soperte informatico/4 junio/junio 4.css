@@ -1,0 +1,15 @@
+table {
+    width: 50%;
+    margin-left: 20%;
+}
+body{
+    background-color: rgb(192, 226, 201);
+}
+
+#ingresar {
+    display: none;
+    margin-left: 43%;
+}
+#nuevosdatos{
+    margin-left: 42%;
+}

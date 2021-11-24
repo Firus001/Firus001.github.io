@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Marzo 19</title>
+</head>
+<body style="background-color: red;">
+
+<p> ingrese su nombre </p>
+<input type="text" id="nombre">
+
+<p>ingrese su edad</p> 
+<input type="number" id="edad"> 
+
+
+    <button onclick="mostrarDatos()"> mostrar datos ingresados </button>
+
+    <h1 id="cuadroDeRespuesta"></h1>
+
+<script> 
+    function mostrarDatos() {
+        var nombreIngresado = document.getElementById("nombre").value;
+        var edadIngresada = document.getElementById("edad").value;
+        var mensaje ="Mi nombre es " + nombreIngresado + " y mi edad es " + edadIngresada;
+        document.getElementById("cuadroDeRespuesta").innerHTML= mensaje;
+        document.getElementById("cuadroDeRespuesta").style.color ="red";
+        document.body.style.backgroundColor="yellow" ;
+    }
+</script>
+</body>
+</html>
+

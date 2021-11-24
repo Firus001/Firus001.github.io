@@ -1,0 +1,173 @@
+ p{
+  font-family: Arial;
+  font-weight: normal;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+ }
+*{
+  font-family: Arial;
+}
+ iframe{
+  height: 90%;
+  width: 800px;
+  border-radius: 10px;
+  border-style: none;
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(8px); 
+ }
+ .texto{
+   color:white;
+   margin-left: 20px;
+   font-family: Arial;
+ }
+ .texto h2{
+  font-size:medium
+ }
+.contenedor{
+  background-color: rgba(0, 0, 0, 0.863);
+  height: 500px;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: flex-end;
+}
+.contenedor-ejs {
+  margin-bottom: 40px;
+  margin-top: 30px;
+  margin: inherit;
+ }
+
+div.appear {
+  width: 250px; 
+  border: #000 2px solid;
+  background:#F8F8F8;
+  position: relative;
+  top: 5px;
+  left:15px;
+  display:none;
+  padding: 0 20px 20px 20px;
+  z-index: 1000000;
+}
+div.hover  {
+  cursor:pointer;
+  width: 5px;
+}
+div.hover:hover div.appear {
+  display:block;
+}
+
+  body{
+    background-color: rgb(255, 255, 255);
+   margin: 0;
+  }
+ body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color:  rgba(0, 0, 0, 0.863);    /* color of the scroll thumb */       /* roundness of the scroll thumb */
+  border: 3px solid none;  /* creates padding around scroll thumb */
+}
+.principio{
+  margin-top: 0;
+    height: 100px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.863);
+    border-color: black;
+    color: white;
+}
+.principio h1{
+  margin-top: 10px;
+    position: absolute;
+    background-clip: text;
+    margin-left: 13%;
+    color: white;
+}
+.principio h2{
+  margin-top: 60px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-left: 13%;
+    color: white;
+}
+.botones{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.click:hover{
+  color: gray;
+  }
+  #tituloo{
+      padding: 10px;
+      width: fit-content;
+      margin: auto;
+  }
+  
+ 
+  .dropbtn {
+    background-color: rgba(0, 0, 0, 0.863);
+   color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.4s;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 0.4s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #929292
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    transition: 0.4s;
+  }
+  .dropdown:hover .dropbtn {
+    background: rgb(110, 110, 110);
+    transition: 0.4s;
+  }
+  input[id="empleado-input"]:checked ~ .list-1{
+    height: 190px;
+}
+input[id="cliente-input"]:checked ~ .list-2{
+    height: 190px;
+}
+input[id="sala-input"]:checked ~ .list-3{
+    height: 190px;
+}
+input[id="pelicula-input"]:checked ~ .list-5{
+    height: 190px;
+}
+input[id="cartelera-input"]:checked ~ .list-4{
+    height: 160px;
+}

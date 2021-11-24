@@ -1,0 +1,45 @@
+1
+Es donde se construye el todo proyecto, Es en ella donde se pueden crear objetos
+2
+El objeto parte de el molde del constructor. Este va a tenr diferentes carateristicas que lo van a diferneciar de otros objetos
+3
+El constructor es lo que perimte poder crear objetos en la clase main, Es la base de la que se pueden crear objeos
+4
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Persona a = new Persona();
+        Persona b =new Persona("Juan");
+    }
+}
+5
+La cantidad que sea necesaria para poder realizar la ttarea
+6
+los atributos de un clase son aquellas quen compartiran todos los objetos que creemos
+7
+Son diferentes fuynciones que se pueden realizar con los datos de esa clase
+8
+Si. Exciste los constructores por defecto, los que permitan solo un ingresar un dato, o los que te dejen crear un objeto nuevo 
+9
+
+10
+Para que dos objetos sean iguales los datos en ellos tiene que ser iguales
+11
+Sirve para poder crear un objeto.
+12
+false. Porque no se comparo los datos dentro de esos objetos
+13
+Es un contenedor que permite agrupar partes de el programa 
+14
+
+15
+Para poder tener una forma de insertar valores en la terminal
+16
+Un Arraylist es como un vector el cual solo deja almacenar un dato por posicion.
+17
+El HasSet es similar al ArrayList pero no permite que se alamacene dos datos iguales y al insertar datos en el el lo hace en desorden
+18 
+El HasMap es similar a los anterirores pero con la diferencia de que puede almacenar dos datos dentro de una misma ubicacion, un dato primario y otr dato. 
+
