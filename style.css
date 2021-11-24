@@ -1,4 +1,4 @@
- p{
+  p{
   font-family: Arial;
   font-weight: normal;
   font-weight: bold;
@@ -32,6 +32,7 @@
   margin-left: 5%;
   margin-right: 5%;
   justify-content: flex-end;
+  border-radius: 10px;
 }
 .contenedor-ejs {
   margin-bottom: 40px;
@@ -67,12 +68,12 @@ div.hover:hover div.appear {
 }
 
 body::-webkit-scrollbar-track {
-  background: rgb(255, 255, 255);        /* color of the tracking area */
+  background: rgb(255, 255, 255);
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color:  rgba(0, 0, 0, 0.863);    /* color of the scroll thumb */       /* roundness of the scroll thumb */
-  border: 3px solid none;  /* creates padding around scroll thumb */
+  background-color:  rgba(0, 0, 0, 0.863);    
+  border: 3px solid none;  
 }
 .principio{
   margin-top: 0;
@@ -119,6 +120,7 @@ body::-webkit-scrollbar-thumb {
     border: none;
     cursor: pointer;
     width: 150px;
+    border-radius:0px 0px 4px 4px
   }
   
   .dropdown {
@@ -142,6 +144,7 @@ body::-webkit-scrollbar-thumb {
     text-decoration: none;
     display: block;
     transition: 0.4s;
+    cursor: pointer;
   }
   
   .dropdown-content a:hover {
@@ -156,6 +159,21 @@ body::-webkit-scrollbar-thumb {
     background: rgb(110, 110, 110);
     transition: 0.4s;
   }
+  input[id="empleado-input"]:checked ~ .list-1{
+    height: 190px;
+}
+input[id="cliente-input"]:checked ~ .list-2{
+    height: 190px;
+}
+input[id="sala-input"]:checked ~ .list-3{
+    height: 190px;
+}
+input[id="pelicula-input"]:checked ~ .list-5{
+    height: 190px;
+}
+input[id="cartelera-input"]:checked ~ .list-4{
+    height: 160px;
+}
   input[id="empleado-input"]:checked ~ .list-1{
     height: 190px;
 }
